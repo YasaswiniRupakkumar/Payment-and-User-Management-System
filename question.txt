@@ -1,0 +1,134 @@
+
+Create a simple student information system, by including the following 
+applications.
+
+1. Menu Driven Program
+2. Student Maintenance Programs
+	1. Addition
+	2. Edit
+	3. Delete
+	4. View
+
+Use the following Database.
+
+Database : Student7
+
+Table : Personal
+
+Fields
+---------
+Number		Varchar(10)
+Name		Varchar(20)
+Address		Varchar(30)
+TelNo		Varchar(15)
+Email		Varchar(40)
+
+Primary Key Field : Number
+
+1. Menu Driven Program
+	Create the following menu structure
+	
+	Personal		Exit
+	Add		Quit
+	Edit
+	Delete
+	View
+2. Student Maintenance Programs
+        1. Addition
+	Create a simple GUI, Get students Number, name, address, telno, & email.
+	Validate each input and add students record in the database
+
+        2. Edit
+	Input student Number, using a search query, Search and display student 
+	details. Do any needed changes, Update the record in the database, after 
+	receiving confirmation from user 
+
+         3. Delete
+	Input student Number, using a search query, Search and display student 
+	details. Delete the record after receiving the confirmation from user
+
+         4. View
+	Input student Number, using a search query, display the students details
+
+	Do Any Needed validations for each input
+
+MODIFY the above database by including the following table 
+
+Table Name : Performance
+
+Fields
+---------
+
+Number		Varchar(10)
+Name		Varchar(20)
+Marks1		Int
+Marks2		Int
+Marks3		Int
+Total		Int
+Average		double
+Grade		Varchar(15)
+
+Primary Key Field : Number
+
+
+Do the following programs
+-------------------------------------
+
+1. Modify the previously created menu program by adding following menu
+
+	Performance
+
+	Add
+	Edit
+	View
+
+2. Perform "Performance" Table Mainteneance Program 
+
+	2.1    Adding Marks and the calculations
+	2.2    Edit the marks in order to caluclate total , average and grade
+	2.3    View Students Perfomance when Student number is given 
+
+
+
+Modify the above Student Database and include the following tables
+
+Table Name : Payments
+
+Fields
+---------
+Number		Varchar(10)
+Name		Varchar(20)
+Subject		Varchar(15)
+Fees		double
+Paid_Amount	double
+Due_Amount	double
+
+Primary Key Field : Number
+
+Table Name : Payment_Transaction
+
+Fields
+---------
+Number		Varchar(10)
+Name		Varchar(20)
+Subject		Varchar(15)
+Fees		double
+Paying_Amount	double               0.00
+Paid_Amount	double               0.00
+Due_Amount	double             10000,00 (fees)
+
+Write the following programs
+
+1. Payment Addition Program
+2. Payment Updation Program
+3. Payment View Program
+
+Modify the Menu Program, Include following Menu Structure
+
+Payments
+--------------
+Add
+Edit
+View
+
+Create frame objects for each of the above programs. 
